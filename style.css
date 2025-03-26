@@ -1,9 +1,9 @@
 .carlos{
     height: 150px;
-    width: 300px;
-    background-color: brown;
+    width: 500px;
+    background-color: rgb(22, 34, 66);
     border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(99, 20, 20); 
+    box-shadow: 10px 10px 5px rgb(37, 119, 200); 
     margin: 300px;
     transition: all 0.3s;
     margin: 50pxS;
@@ -12,7 +12,7 @@
 
 .carlos > p {
     position: relative;
-    left: 200px;
+    left: 400px;
     align-items: center;
     padding: 2px;
     color: white;
@@ -21,6 +21,7 @@
 
 .carlos:hover {
     transform: scale(1.05);
+    padding-top: 10px ;
 }
 
 section {
@@ -28,14 +29,23 @@ section {
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+    padding-left: 5px;
 }
 
 article {
     width: 30px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
-    background-color: teal;
+    background-color: rgb(255, 255, 255);
 }
 
+article > p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+    
+
+
+}
 
 
